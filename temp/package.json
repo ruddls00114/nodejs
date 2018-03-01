@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "nodemon": "^1.17.1",
+    "pug": "^2.0.0-rc.4"
   }
 }

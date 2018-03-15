@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
         else callback(null, connection)
       })
     },
-    (connection, callback) => {
+    (connection, callback) => {     //메일 중복 확인 
       //  { mail, pwd, name } = req.body
       const mail = req.body.mail
       const selectMailQuery = 'select user_mail from users where user_mail = ?'

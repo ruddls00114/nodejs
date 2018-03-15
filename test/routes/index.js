@@ -4,7 +4,7 @@ const training = require('./training/index')
 const signup =require('./signup')
 const signin =require('./signin')
 router.use('/training',training)
-router.use('/signup',signin)
+router.use('/signin',signin)
 router.use('/signup',signup)
 
 
